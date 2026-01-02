@@ -37,5 +37,4 @@ jobs:
 
       - name: Build
         run: |
-          gpg --quiet --batch --yes --decrypt --passphrase=$ACM_GPG_PASSWORD --output .github/acromere.keystore .github/acromere.keystore.gpg
           mvn deploy -B -U -V --settings .github/settings.xml --file pom.xml
