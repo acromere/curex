@@ -31,13 +31,13 @@
 		<mirror>
 			<id>avn-mirror</id>
 			<name>Mirror to Avereon Maven Repository</name>
-			<url>https://repo.avereon.com/avn</url>
+			<url>https://repo.acromere.com/avn</url>
 			<mirrorOf>avn</mirrorOf>
 		</mirror>
 		<mirror>
 			<id>central-mirror</id>
 			<name>Mirror to Avereon Maven Repository</name>
-			<url>https://repo.avereon.com/central</url>
+			<url>https://repo.acromere.com/central</url>
 			<mirrorOf>central</mirrorOf>
 		</mirror>
 	</mirrors>
@@ -50,7 +50,7 @@
 		<profile>
 			<id>signjar</id>
 			<properties>
-				<jarsigner.keystore>.github/avereon.keystore</jarsigner.keystore>
+				<jarsigner.keystore>.github/acromere.keystore</jarsigner.keystore>
 				<jarsigner.keystore.password>${env.AVN_KEYSTORE_PASSWORD}</jarsigner.keystore.password>
 			</properties>
 		</profile>

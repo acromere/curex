@@ -1,4 +1,4 @@
-package com.avereon.curex;
+package com.acromere.curex;
 
 import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.Test;

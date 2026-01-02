@@ -6,12 +6,12 @@
 
 	<servers>
 		<server>
-			<id>avn-release</id>
+			<id>acm-release</id>
 			<username>${env.AVN_REPO_USERNAME}</username>
 			<password>${env.AVN_REPO_PASSWORD}</password>
 		</server>
 		<server>
-			<id>avn-snapshot</id>
+			<id>acm-snapshot</id>
 			<username>${env.AVN_REPO_USERNAME}</username>
 			<password>${env.AVN_REPO_PASSWORD}</password>
 		</server>

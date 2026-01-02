@@ -1,4 +1,4 @@
-package com.avereon.curex;
+package com.acromere.curex;
 
 import java.util.Enumeration;
 import java.util.Iterator;

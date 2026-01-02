@@ -1,4 +1,4 @@
-package com.avereon.curex;
+package com.acromere.curex;
 
 import java.io.File;
 import java.util.ArrayList;
