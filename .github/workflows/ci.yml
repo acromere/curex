@@ -17,6 +17,18 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: 21
+
+      - name: Fetch CI/CD resources
+        uses: actions/checkout@v6
+        with:
+          repository: acromere/canoe
+          path: .github
+
+      - name: Setup
+        shell: bash
+        run: |
+          source .github/config.sh
+
       - name: Build
         env:
           ACM_GPG_PASSWORD: ${{ secrets.ACM_GPG_PASSWORD }}
