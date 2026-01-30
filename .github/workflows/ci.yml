@@ -1,4 +1,4 @@
-name: CI
+name: Acromere Curex CI
 
 on:
   push:
